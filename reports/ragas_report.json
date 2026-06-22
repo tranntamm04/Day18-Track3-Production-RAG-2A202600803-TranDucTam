@@ -1,0 +1,383 @@
+{
+  "aggregate": {
+    "faithfulness": 0.6757685916559135,
+    "answer_relevancy": 0.29526720950074137,
+    "context_precision": 0.1875487635916044,
+    "context_recall": 0.27903305161413744
+  },
+  "num_questions": 20,
+  "per_question": [
+    {
+      "question": "Nhân viên được nghỉ bao nhiêu ngày khi kết hôn?",
+      "answer": "Trich tu nghi_phep_dac_biet.md, noi dung lien quan den quy dinh noi bo.\n\n## Hồ sơ cần thiết\nNhân viên cần cung cấp giấy tờ chứng minh trong vòng 5 ngày làm việc sau khi quay lại: giấy đăng ký kết hôn, giấy khai tử, giấy khai sinh. Trường hợp không cung cấp đầy đủ, số ngày nghỉ sẽ bị trừ vào phép năm.",
+      "contexts": [
+        "Trich tu nghi_phep_dac_biet.md, noi dung lien quan den quy dinh noi bo.\n\n## Hồ sơ cần thiết\nNhân viên cần cung cấp giấy tờ chứng minh trong vòng 5 ngày làm việc sau khi quay lại: giấy đăng ký kết hôn, giấy khai tử, giấy khai sinh. Trường hợp không cung cấp đầy đủ, số ngày nghỉ sẽ bị trừ vào phép năm.",
+        "Trich tu nghi_phep_dac_biet.md, noi dung lien quan den quy dinh noi bo.\n\n## Các trường hợp được nghỉ phép đặc biệt Nhân viên được nghỉ có lương trong các trường hợp sau đây mà không trừ vào phép năm: - **Kết hôn**: 3 ngày làm việc - **Tang lễ** (cha mẹ, vợ/chồng, con): 3 ngày làm việc - **Sinh con** (nam giới): 5 ngày làm việc",
+        "Trich tu hoan_chi_dao_tao.md, noi dung lien quan den quy dinh noi bo.\n\n## Cam kết hoàn chi\nNhân viên được tài trợ đào tạo phải **cam kết làm việc tại công ty ít nhất 1 năm** sau khi hoàn thành khóa học. Nếu nghỉ việc trước thời hạn cam kết, nhân viên phải hoàn trả **100% chi phí** đào tạo đã được tài trợ."
+      ],
+      "ground_truth": "Nhân viên được nghỉ 3 ngày làm việc có lương khi kết hôn, không trừ vào phép năm.",
+      "faithfulness": 0.7105263153313711,
+      "answer_relevancy": 0.2187499997363281,
+      "context_precision": 0.14814814798010972,
+      "context_recall": 0.310344827324019
+    },
+    {
+      "question": "Bảo hiểm sức khỏe PVI có hạn mức bao nhiêu cho nhân viên?",
+      "answer": "Trich tu bao_hiem_suc_khoe.md, noi dung lien quan den quy dinh noi bo.\n\n## Bảo hiểm cho nhân viên\nCông ty cung cấp gói bảo hiểm sức khỏe toàn diện qua **PVI Insurance** cho tất cả nhân viên chính thức. Hạn mức bảo hiểm: **200.000.000 VNĐ/năm** bao gồm nội trú, ngoại trú và nha khoa.",
+      "contexts": [
+        "Trich tu bao_hiem_suc_khoe.md, noi dung lien quan den quy dinh noi bo.\n\n## Bảo hiểm cho nhân viên\nCông ty cung cấp gói bảo hiểm sức khỏe toàn diện qua **PVI Insurance** cho tất cả nhân viên chính thức. Hạn mức bảo hiểm: **200.000.000 VNĐ/năm** bao gồm nội trú, ngoại trú và nha khoa.",
+        "Trich tu nghi_om.md, noi dung lien quan den quy dinh noi bo.\n\nbản.\n\n## Nghỉ ốm dài hạn\nTrường hợp nghỉ ốm trên 30 ngày/năm, nhân viên cần liên hệ phòng Nhân sự để được hướng dẫn chế độ bảo hiểm dài hạn. Công ty có quyền yêu cầu khám sức khỏe tổng quát trước khi nhân viên quay lại làm việc.",
+        "Trich tu bao_hiem_suc_khoe.md, noi dung lien quan den quy dinh noi bo.\n\n## Gói gia đình\nNhân viên có thể đăng ký thêm gói bảo hiểm cho người thân (vợ/chồng, con dưới 18 tuổi) với hạn mức **50.000.000 VNĐ/năm/người**. Chi phí gói gia đình: công ty hỗ trợ 50%, nhân viên đóng 50% qua khấu trừ lương hàng tháng."
+      ],
+      "ground_truth": "Hạn mức bảo hiểm sức khỏe PVI cho nhân viên là 200.000.000 VNĐ/năm, bao gồm nội trú, ngoại trú và nha khoa.",
+      "faithfulness": 0.6103896099655085,
+      "answer_relevancy": 0.3666666663272223,
+      "context_precision": 0.19999999980680552,
+      "context_recall": 0.33846153817029584
+    },
+    {
+      "question": "Phụ cấp ăn trưa hàng tháng là bao nhiêu?",
+      "answer": "Trich tu phu_cap.md, noi dung lien quan den quy dinh noi bo.\n\n## Phụ cấp ăn trưa\nTất cả nhân viên được hưởng phụ cấp ăn trưa **1.000.000 VNĐ/tháng**, chi trả cùng kỳ lương. Phụ cấp này không áp dụng cho những ngày nghỉ phép, nghỉ ốm hoặc công tác ngoài.",
+      "contexts": [
+        "Trich tu phu_cap.md, noi dung lien quan den quy dinh noi bo.\n\n## Phụ cấp ăn trưa\nTất cả nhân viên được hưởng phụ cấp ăn trưa **1.000.000 VNĐ/tháng**, chi trả cùng kỳ lương. Phụ cấp này không áp dụng cho những ngày nghỉ phép, nghỉ ốm hoặc công tác ngoài.",
+        "Trich tu thu_viec.md, noi dung lien quan den quy dinh noi bo.\n\n## Lương thử việc\nNhân viên thử việc được nhận **85% mức lương** của cấp bậc tương ứng theo bảng lương công ty. Phụ cấp ăn trưa được áp dụng đầy đủ từ ngày đầu tiên.",
+        "Trich tu cong_tac_phi.md, noi dung lien quan den quy dinh noi bo.\n\n## Công tác trong nước - **Phụ cấp ngày**: **800.000 VNĐ/ngày** (bao gồm ăn uống và di chuyển nội thành) - **Khách sạn**: tối đa **1.200.000 VNĐ/đêm**, thanh toán theo hóa đơn thực tế - **Vé máy bay**: hạng phổ thông, đặt trước ít nhất 5 ngày. Cấp Manager"
+      ],
+      "ground_truth": "Phụ cấp ăn trưa là 1.000.000 VNĐ/tháng, chi trả cùng kỳ lương.",
+      "faithfulness": 0.6249999995703124,
+      "answer_relevancy": 0.18518518490740737,
+      "context_precision": 0.11111111095833333,
+      "context_recall": 0.230088495358133
+    },
+    {
+      "question": "Nhân viên được nghỉ bao nhiêu ngày phép năm?",
+      "answer": "Trich tu nghi_phep_khong_luong.md, noi dung lien quan den quy dinh noi bo.\n\n## Điều kiện áp dụng\nNhân viên chính thức đã hết phép năm có thể xin nghỉ phép không lương. Thời gian nghỉ phép không lương tối đa là **30 ngày** trong một năm dương lịch. Nghỉ phép không lương không được tính thâm niên.",
+      "contexts": [
+        "Trich tu nghi_phep_khong_luong.md, noi dung lien quan den quy dinh noi bo.\n\n## Điều kiện áp dụng\nNhân viên chính thức đã hết phép năm có thể xin nghỉ phép không lương. Thời gian nghỉ phép không lương tối đa là **30 ngày** trong một năm dương lịch. Nghỉ phép không lương không được tính thâm niên.",
+        "Trich tu nghi_phep_dac_biet.md, noi dung lien quan den quy dinh noi bo.\n\n## Các trường hợp được nghỉ phép đặc biệt Nhân viên được nghỉ có lương trong các trường hợp sau đây mà không trừ vào phép năm: - **Kết hôn**: 3 ngày làm việc - **Tang lễ** (cha mẹ, vợ/chồng, con): 3 ngày làm việc - **Sinh con** (nam giới): 5 ngày làm việc",
+        "Trich tu nghi_phep_nam_v2023.md, noi dung lien quan den quy dinh noi bo.\n\n## Số ngày phép năm\nMỗi nhân viên chính thức được hưởng **12 ngày phép năm** có lương. Số ngày phép được tính theo năm dương lịch từ 01/01 đến 31/12. Nhân viên vào công ty giữa năm sẽ được tính pro-rata theo số tháng làm việc thực tế."
+      ],
+      "ground_truth": "Theo chính sách hiện hành (v2024), nhân viên được nghỉ 15 ngày phép năm có lương. Chính sách cũ (v2023) là 12 ngày nhưng đã bị thay thế.",
+      "faithfulness": 0.6617647054395545,
+      "answer_relevancy": 0.2592592589814815,
+      "context_precision": 0.1399999998362,
+      "context_recall": 0.2413793100066885
+    },
+    {
+      "question": "Thâm niên bao nhiêu năm thì được cộng thêm ngày phép?",
+      "answer": "Trich tu nghi_phep_nam_v2023.md, noi dung lien quan den quy dinh noi bo.\n\n## Thâm niên công tác\nNhân viên có thâm niên từ **5 năm trở lên** được cộng thêm **1 ngày phép** cho mỗi 5 năm làm việc liên tục. Ví dụ: nhân viên 10 năm thâm niên được 14 ngày phép.",
+      "contexts": [
+        "Trich tu nghi_phep_nam_v2023.md, noi dung lien quan den quy dinh noi bo.\n\n## Thâm niên công tác\nNhân viên có thâm niên từ **5 năm trở lên** được cộng thêm **1 ngày phép** cho mỗi 5 năm làm việc liên tục. Ví dụ: nhân viên 10 năm thâm niên được 14 ngày phép.",
+        "Trich tu nghi_phep_nam_v2024.md, noi dung lien quan den quy dinh noi bo.\n\n## Thâm niên công tác\nNhân viên có thâm niên từ **3 năm trở lên** được cộng thêm **1 ngày phép** cho mỗi 3 năm làm việc liên tục. Ví dụ: nhân viên 9 năm thâm niên được 18 ngày phép (15 + 3).",
+        "Trich tu nghi_phep_khong_luong.md, noi dung lien quan den quy dinh noi bo.\n\n## Điều kiện áp dụng\nNhân viên chính thức đã hết phép năm có thể xin nghỉ phép không lương. Thời gian nghỉ phép không lương tối đa là **30 ngày** trong một năm dương lịch. Nghỉ phép không lương không được tính thâm niên."
+      ],
+      "ground_truth": "Theo chính sách v2024 hiện hành, nhân viên có thâm niên từ 3 năm trở lên được cộng thêm 1 ngày phép cho mỗi 3 năm. Chính sách cũ v2023 yêu cầu 5 năm.",
+      "faithfulness": 0.7272727268099173,
+      "answer_relevancy": 0.31372548985774706,
+      "context_precision": 0.19753086396281053,
+      "context_recall": 0.4040404036261606
+    },
+    {
+      "question": "Mật khẩu phải có tối thiểu bao nhiêu ký tự?",
+      "answer": "Trich tu mat_khau_v2.md, noi dung lien quan den quy dinh noi bo.\n\n## Yêu cầu mật khẩu\nMật khẩu phải có tối thiểu **12 ký tự**, bao gồm ít nhất 1 chữ hoa, 1 chữ thường, 1 số và 1 ký tự đặc biệt (!@#$%^&*). Khuyến khích sử dụng passphrase dài hơn 16 ký tự.",
+      "contexts": [
+        "Trich tu mat_khau_v2.md, noi dung lien quan den quy dinh noi bo.\n\n## Yêu cầu mật khẩu\nMật khẩu phải có tối thiểu **12 ký tự**, bao gồm ít nhất 1 chữ hoa, 1 chữ thường, 1 số và 1 ký tự đặc biệt (!@#$%^&*). Khuyến khích sử dụng passphrase dài hơn 16 ký tự.",
+        "Trich tu mat_khau_v1.md, noi dung lien quan den quy dinh noi bo.\n\n## Yêu cầu mật khẩu\nMật khẩu phải có tối thiểu **8 ký tự**, bao gồm ít nhất 1 chữ hoa, 1 chữ thường và 1 số. Không được sử dụng tên đăng nhập hoặc các thông tin cá nhân dễ đoán làm mật khẩu.",
+        "Trich tu mat_khau_v1.md, noi dung lien quan den quy dinh noi bo.\n\n## Chu kỳ thay đổi\nMật khẩu phải được thay đổi **mỗi 90 ngày**. Hệ thống sẽ tự động nhắc nhở trước 7 ngày. Mật khẩu mới không được trùng với 3 mật khẩu gần nhất."
+      ],
+      "ground_truth": "Theo chính sách hiện hành (v2.0), mật khẩu phải có tối thiểu 12 ký tự. Chính sách cũ (v1.0) yêu cầu 8 ký tự nhưng đã bị thay thế.",
+      "faithfulness": 0.7049180323304219,
+      "answer_relevancy": 0.3396226412032752,
+      "context_precision": 0.20224719081176618,
+      "context_recall": 0.2476190472464399
+    },
+    {
+      "question": "Bao lâu phải đổi mật khẩu một lần?",
+      "answer": "Trich tu mat_khau_v2.md, noi dung lien quan den quy dinh noi bo.\n\n## Chu kỳ thay đổi\nMật khẩu phải được thay đổi **mỗi 120 ngày**. Hệ thống tự động nhắc nhở trước 14 ngày. Mật khẩu mới không được trùng với 5 mật khẩu gần nhất. Tài khoản bị khóa sau 5 lần nhập sai liên tiếp.",
+      "contexts": [
+        "Trich tu mat_khau_v2.md, noi dung lien quan den quy dinh noi bo.\n\n## Chu kỳ thay đổi\nMật khẩu phải được thay đổi **mỗi 120 ngày**. Hệ thống tự động nhắc nhở trước 14 ngày. Mật khẩu mới không được trùng với 5 mật khẩu gần nhất. Tài khoản bị khóa sau 5 lần nhập sai liên tiếp.",
+        "Trich tu mat_khau_v1.md, noi dung lien quan den quy dinh noi bo.\n\n## Chu kỳ thay đổi\nMật khẩu phải được thay đổi **mỗi 90 ngày**. Hệ thống sẽ tự động nhắc nhở trước 7 ngày. Mật khẩu mới không được trùng với 3 mật khẩu gần nhất.",
+        "Trich tu mat_khau_v1.md, noi dung lien quan den quy dinh noi bo.\n\n## Yêu cầu mật khẩu\nMật khẩu phải có tối thiểu **8 ký tự**, bao gồm ít nhất 1 chữ hoa, 1 chữ thường và 1 số. Không được sử dụng tên đăng nhập hoặc các thông tin cá nhân dễ đoán làm mật khẩu."
+      ],
+      "ground_truth": "Theo chính sách hiện hành (v2.0), mật khẩu phải được thay đổi mỗi 120 ngày. Chính sách cũ yêu cầu 90 ngày nhưng đã bị thay thế.",
+      "faithfulness": 0.7384615379957395,
+      "answer_relevancy": 0.17857142832653064,
+      "context_precision": 0.133333333171358,
+      "context_recall": 0.2452830185176219
+    },
+    {
+      "question": "Có cần kích hoạt xác thực đa yếu tố (MFA) không?",
+      "answer": "Trich tu mat_khau_v2.md, noi dung lien quan den quy dinh noi bo.\n\n## Xác thực đa yếu tố (MFA)\nTất cả nhân viên **bắt buộc** kích hoạt MFA cho tài khoản email, VPN và các hệ thống nội bộ. Phương thức MFA được chấp nhận: ứng dụng Authenticator (ưu tiên), SMS OTP, hoặc YubiKey.",
+      "contexts": [
+        "Trich tu mat_khau_v2.md, noi dung lien quan den quy dinh noi bo.\n\n## Xác thực đa yếu tố (MFA)\nTất cả nhân viên **bắt buộc** kích hoạt MFA cho tài khoản email, VPN và các hệ thống nội bộ. Phương thức MFA được chấp nhận: ứng dụng Authenticator (ưu tiên), SMS OTP, hoặc YubiKey.",
+        "Trich tu vpn_truy_cap.md, noi dung lien quan den quy dinh noi bo.\n\n## Quản lý tài khoản VPN\nTài khoản VPN tự động bị **khóa sau 60 ngày không hoạt động**. Để kích hoạt lại, nhân viên cần gửi yêu cầu qua ticket IT kèm xác nhận của quản lý trực tiếp. Thời gian xử lý: 1-2 ngày làm việc.",
+        "Trich tu nghi_phep_nam_v2023.md, noi dung lien quan den quy dinh noi bo.\n\n## Quy định sử dụng Phép năm phải được đăng ký trước ít nhất 3 ngày làm việc qua hệ thống HR Portal. Nghỉ phép từ 3 ngày trở lên cần được trưởng phòng phê duyệt. Phép năm không sử dụng hết có thể chuyển tối đa 5 ngày sang năm sau, hết hạn vào 31/03 năm kế"
+      ],
+      "ground_truth": "Có, theo chính sách mật khẩu v2.0 hiện hành, tất cả nhân viên bắt buộc kích hoạt MFA cho email, VPN và hệ thống nội bộ. Chính sách cũ v1.0 không yêu cầu MFA.",
+      "faithfulness": 0.6107784426895191,
+      "answer_relevancy": 0.25806451583714884,
+      "context_precision": 0.17322834629846856,
+      "context_recall": 0.2837837834448503
+    },
+    {
+      "question": "Nhân viên thử việc có được nghỉ phép năm không?",
+      "answer": "Trich tu thu_viec.md, noi dung lien quan den quy dinh noi bo.\n\n## Quyền lợi trong thử việc Nhân viên thử việc **KHÔNG được nghỉ phép năm**. Trường hợp cần nghỉ việc riêng, nhân viên thử việc phải xin nghỉ không lương và được trưởng phòng phê duyệt. Nhân viên thử việc được tham gia bảo hiểm xã hội bắt buộc nhưng chưa",
+      "contexts": [
+        "Trich tu thu_viec.md, noi dung lien quan den quy dinh noi bo.\n\n## Quyền lợi trong thử việc Nhân viên thử việc **KHÔNG được nghỉ phép năm**. Trường hợp cần nghỉ việc riêng, nhân viên thử việc phải xin nghỉ không lương và được trưởng phòng phê duyệt. Nhân viên thử việc được tham gia bảo hiểm xã hội bắt buộc nhưng chưa",
+        "Trich tu nghi_phep_dac_biet.md, noi dung lien quan den quy dinh noi bo.\n\n## Các trường hợp được nghỉ phép đặc biệt Nhân viên được nghỉ có lương trong các trường hợp sau đây mà không trừ vào phép năm: - **Kết hôn**: 3 ngày làm việc - **Tang lễ** (cha mẹ, vợ/chồng, con): 3 ngày làm việc - **Sinh con** (nam giới): 5 ngày làm việc",
+        "Trich tu nghi_phep_khong_luong.md, noi dung lien quan den quy dinh noi bo.\n\n## Điều kiện áp dụng\nNhân viên chính thức đã hết phép năm có thể xin nghỉ phép không lương. Thời gian nghỉ phép không lương tối đa là **30 ngày** trong một năm dương lịch. Nghỉ phép không lương không được tính thâm niên."
+      ],
+      "ground_truth": "KHÔNG. Nhân viên thử việc KHÔNG được nghỉ phép năm. Nếu cần nghỉ, phải xin nghỉ không lương và được trưởng phòng phê duyệt.",
+      "faithfulness": 0.6571428567016326,
+      "answer_relevancy": 0.32142857113520407,
+      "context_precision": 0.19230769213387572,
+      "context_recall": 0.3185840705167201
+    },
+    {
+      "question": "Khi phát hiện malware trên máy, nhân viên có nên tự xử lý không?",
+      "answer": "Trich tu bao_mat_su_co.md, noi dung lien quan den quy dinh noi bo.\n\n## Báo cáo sự cố Khi phát hiện hoặc nghi ngờ sự cố bảo mật, nhân viên **phải báo cáo trong vòng 1 giờ** qua email **helpdesk@cty.vn** hoặc hotline CNTT nội bộ (ext. 9999). Tuyệt đối **không tự ý xử lý malware** hoặc tìm cách khắc phục mà không có sự hướng",
+      "contexts": [
+        "Trich tu bao_mat_su_co.md, noi dung lien quan den quy dinh noi bo.\n\n## Báo cáo sự cố Khi phát hiện hoặc nghi ngờ sự cố bảo mật, nhân viên **phải báo cáo trong vòng 1 giờ** qua email **helpdesk@cty.vn** hoặc hotline CNTT nội bộ (ext. 9999). Tuyệt đối **không tự ý xử lý malware** hoặc tìm cách khắc phục mà không có sự hướng",
+        "Trich tu bao_mat_su_co.md, noi dung lien quan den quy dinh noi bo.\n\n## Phân loại sự cố - **Nghiêm trọng**: rò rỉ dữ liệu Bí mật/Tối mật, tấn công ransomware → xử lý trong 2 giờ - **Cao**: phishing thành công, tài khoản bị chiếm → xử lý trong 4 giờ - **Trung bình**: phát hiện malware trên 1 máy, truy cập trái phép → xử lý",
+        "Trich tu chi_phi_expense.md, noi dung lien quan den quy dinh noi bo.\n\n## Thời hạn nộp hồ sơ\nNhân viên phải nộp hồ sơ hoàn ứng chi phí trong vòng **7 ngày** kể từ ngày phát sinh chi phí. Hồ sơ nộp trễ quá 30 ngày sẽ không được xử lý, trừ trường hợp đặc biệt có giải trình của trưởng phòng."
+      ],
+      "ground_truth": "KHÔNG. Nhân viên tuyệt đối không được tự ý xử lý malware. Phải báo cáo trong vòng 1 giờ qua helpdesk@cty.vn hoặc hotline CNTT. Tự ý xử lý bị coi là vi phạm nghiêm trọng.",
+      "faithfulness": 0.6551724133525564,
+      "answer_relevancy": 0.3098591546129736,
+      "context_precision": 0.19847328225185007,
+      "context_recall": 0.3758389258372145
+    },
+    {
+      "question": "Nhân viên thử việc có được hưởng bảo hiểm sức khỏe PVI không?",
+      "answer": "Trich tu thu_viec.md, noi dung lien quan den quy dinh noi bo.\n\nđược hưởng gói bảo hiểm sức khỏe PVI.\n\n## Đánh giá thử việc\nQuản lý trực tiếp thực hiện đánh giá vào ngày thứ 30 (giữa kỳ) và ngày thứ 55 (cuối kỳ). Kết quả đánh giá quyết định việc ký hợp đồng chính thức.",
+      "contexts": [
+        "Trich tu thu_viec.md, noi dung lien quan den quy dinh noi bo.\n\nđược hưởng gói bảo hiểm sức khỏe PVI.\n\n## Đánh giá thử việc\nQuản lý trực tiếp thực hiện đánh giá vào ngày thứ 30 (giữa kỳ) và ngày thứ 55 (cuối kỳ). Kết quả đánh giá quyết định việc ký hợp đồng chính thức.",
+        "Trich tu nghi_om.md, noi dung lien quan den quy dinh noi bo.\n\nbản.\n\n## Nghỉ ốm dài hạn\nTrường hợp nghỉ ốm trên 30 ngày/năm, nhân viên cần liên hệ phòng Nhân sự để được hướng dẫn chế độ bảo hiểm dài hạn. Công ty có quyền yêu cầu khám sức khỏe tổng quát trước khi nhân viên quay lại làm việc.",
+        "Trich tu thu_viec.md, noi dung lien quan den quy dinh noi bo.\n\n## Quyền lợi trong thử việc Nhân viên thử việc **KHÔNG được nghỉ phép năm**. Trường hợp cần nghỉ việc riêng, nhân viên thử việc phải xin nghỉ không lương và được trưởng phòng phê duyệt. Nhân viên thử việc được tham gia bảo hiểm xã hội bắt buộc nhưng chưa"
+      ],
+      "ground_truth": "KHÔNG. Nhân viên thử việc chưa được hưởng gói bảo hiểm sức khỏe PVI. Chỉ được tham gia bảo hiểm xã hội bắt buộc.",
+      "faithfulness": 0.6399999995647999,
+      "answer_relevancy": 0.29508196687772104,
+      "context_precision": 0.2260869563212098,
+      "context_recall": 0.3252032517493555
+    },
+    {
+      "question": "Một nhân viên Senior có 9 năm thâm niên được nghỉ bao nhiêu ngày phép năm và lương trong khoảng nào?",
+      "answer": "Trich tu nghi_phep_khong_luong.md, noi dung lien quan den quy dinh noi bo.\n\n## Điều kiện áp dụng\nNhân viên chính thức đã hết phép năm có thể xin nghỉ phép không lương. Thời gian nghỉ phép không lương tối đa là **30 ngày** trong một năm dương lịch. Nghỉ phép không lương không được tính thâm niên.",
+      "contexts": [
+        "Trich tu nghi_phep_khong_luong.md, noi dung lien quan den quy dinh noi bo.\n\n## Điều kiện áp dụng\nNhân viên chính thức đã hết phép năm có thể xin nghỉ phép không lương. Thời gian nghỉ phép không lương tối đa là **30 ngày** trong một năm dương lịch. Nghỉ phép không lương không được tính thâm niên.",
+        "Trich tu nghi_phep_nam_v2024.md, noi dung lien quan den quy dinh noi bo.\n\n## Thâm niên công tác\nNhân viên có thâm niên từ **3 năm trở lên** được cộng thêm **1 ngày phép** cho mỗi 3 năm làm việc liên tục. Ví dụ: nhân viên 9 năm thâm niên được 18 ngày phép (15 + 3).",
+        "Trich tu nghi_phep_dac_biet.md, noi dung lien quan den quy dinh noi bo.\n\n## Các trường hợp được nghỉ phép đặc biệt Nhân viên được nghỉ có lương trong các trường hợp sau đây mà không trừ vào phép năm: - **Kết hôn**: 3 ngày làm việc - **Tang lễ** (cha mẹ, vợ/chồng, con): 3 ngày làm việc - **Sinh con** (nam giới): 5 ngày làm việc"
+      ],
+      "ground_truth": "Theo chính sách v2024: 15 ngày cơ bản + 3 ngày thâm niên (9÷3=3) = 18 ngày phép. Lương Senior (P3-P4): 20-35 triệu VNĐ/tháng.",
+      "faithfulness": 0.6666666662222221,
+      "answer_relevancy": 0.3999999995739645,
+      "context_precision": 0.2545454542479339,
+      "context_recall": 0.17699115011825517
+    },
+    {
+      "question": "Nếu cần mua một chiếc laptop 30 triệu cho nhân viên mới, ai phê duyệt và cần gì từ phòng CNTT?",
+      "answer": "Trich tu hoan_chi_dao_tao.md, noi dung lien quan den quy dinh noi bo.\n\n## Điều kiện được tài trợ\nCông ty chi trả chi phí đào tạo bên ngoài (chứng chỉ, khóa học dài hạn, hội thảo) cho nhân viên có **thâm niên từ 1 năm trở lên**. Chi phí được tài trợ tối đa **30.000.000 VNĐ/khóa** và cần phê duyệt của Giám đốc phòng ban.",
+      "contexts": [
+        "Trich tu hoan_chi_dao_tao.md, noi dung lien quan den quy dinh noi bo.\n\n## Điều kiện được tài trợ\nCông ty chi trả chi phí đào tạo bên ngoài (chứng chỉ, khóa học dài hạn, hội thảo) cho nhân viên có **thâm niên từ 1 năm trở lên**. Chi phí được tài trợ tối đa **30.000.000 VNĐ/khóa** và cần phê duyệt của Giám đốc phòng ban.",
+        "Trich tu dao_tao_noi_bo.md, noi dung lien quan den quy dinh noi bo.\n\n## Ngân sách đào tạo\nCông ty dành ngân sách đào tạo **5.000.000 VNĐ/người/năm** cho các khóa học bên ngoài. Nhân viên có thể đăng ký khóa học qua hệ thống Learning Portal và cần phê duyệt của trưởng phòng.",
+        "Trich tu nghi_phep_khong_luong.md, noi dung lien quan den quy dinh noi bo.\n\n## Quy trình phê duyệt Đơn xin nghỉ phép không lương phải được nộp trước ít nhất 7 ngày làm việc. Nghỉ từ 1-5 ngày: trưởng phòng phê duyệt. Nghỉ từ 6-15 ngày: cần thêm phê duyệt của Giám đốc Nhân sự. Nghỉ từ 16-30 ngày: cần phê duyệt của **Giám đốc điều"
+      ],
+      "ground_truth": "Laptop 30 triệu nằm trong khoảng 5-50 triệu nên cần Giám đốc phòng ban (Director) phê duyệt. Ngoài ra, mua sắm thiết bị CNTT cần có xác nhận cấu hình kỹ thuật từ phòng CNTT trước khi đề xuất. Cần đính kèm ít nhất 3 báo giá vì trên 10 triệu.",
+      "faithfulness": 0.7564102559399243,
+      "answer_relevancy": 0.2531645565838808,
+      "context_precision": 0.1709401706567317,
+      "context_recall": 0.20979020935380702
+    },
+    {
+      "question": "Nhân viên được tài trợ khóa học 25 triệu, nghỉ việc sau 8 tháng hoàn thành khóa học. Phải hoàn trả bao nhiêu?",
+      "answer": "Trich tu hoan_chi_dao_tao.md, noi dung lien quan den quy dinh noi bo.\n\n## Cam kết hoàn chi\nNhân viên được tài trợ đào tạo phải **cam kết làm việc tại công ty ít nhất 1 năm** sau khi hoàn thành khóa học. Nếu nghỉ việc trước thời hạn cam kết, nhân viên phải hoàn trả **100% chi phí** đào tạo đã được tài trợ.",
+      "contexts": [
+        "Trich tu hoan_chi_dao_tao.md, noi dung lien quan den quy dinh noi bo.\n\n## Cam kết hoàn chi\nNhân viên được tài trợ đào tạo phải **cam kết làm việc tại công ty ít nhất 1 năm** sau khi hoàn thành khóa học. Nếu nghỉ việc trước thời hạn cam kết, nhân viên phải hoàn trả **100% chi phí** đào tạo đã được tài trợ.",
+        "Trich tu hoan_chi_dao_tao.md, noi dung lien quan den quy dinh noi bo.\n\n## Điều kiện được tài trợ\nCông ty chi trả chi phí đào tạo bên ngoài (chứng chỉ, khóa học dài hạn, hội thảo) cho nhân viên có **thâm niên từ 1 năm trở lên**. Chi phí được tài trợ tối đa **30.000.000 VNĐ/khóa** và cần phê duyệt của Giám đốc phòng ban.",
+        "Trich tu thuong_tet.md, noi dung lien quan den quy dinh noi bo.\n\nthu\n\n## Thời gian chi trả\nThưởng Tết được chi trả trước ngày 25 tháng Chạp (âm lịch). Nhân viên nghỉ việc trước ngày chi trả sẽ không được hưởng thưởng Tết, trừ trường hợp nghỉ hưu hoặc hết hạn hợp đồng."
+      ],
+      "ground_truth": "Nhân viên phải cam kết làm việc ít nhất 1 năm sau khi hoàn thành khóa học. Nghỉ sau 8 tháng là trước hạn cam kết, phải hoàn trả 100% chi phí tức 25.000.000 VNĐ.",
+      "faithfulness": 0.6482758616308204,
+      "answer_relevancy": 0.41791044734239247,
+      "context_precision": 0.2711864403964378,
+      "context_recall": 0.4341085267666606
+    },
+    {
+      "question": "Mentor và buddy của nhân viên mới có thể là cùng một người không? Quản lý trực tiếp có thể làm mentor không?",
+      "answer": "Trich tu mentor_buddy.md, noi dung lien quan den quy dinh noi bo.\n\n## Quy tắc quan trọng\nMentor và Buddy phải là **hai người khác nhau** để đảm bảo nhân viên mới có nhiều nguồn hỗ trợ đa dạng. Quản lý trực tiếp không được làm Mentor hoặc Buddy.",
+      "contexts": [
+        "Trich tu mentor_buddy.md, noi dung lien quan den quy dinh noi bo.\n\n## Quy tắc quan trọng\nMentor và Buddy phải là **hai người khác nhau** để đảm bảo nhân viên mới có nhiều nguồn hỗ trợ đa dạng. Quản lý trực tiếp không được làm Mentor hoặc Buddy.",
+        "Trich tu mentor_buddy.md, noi dung lien quan den quy dinh noi bo.\n\n## Phân biệt Mentor và Buddy - **Mentor**: hỗ trợ **chuyên môn kỹ thuật**, hướng dẫn phát triển nghề nghiệp, chia sẻ kiến thức chuyên sâu. Mentor phải là nhân viên cấp Senior trở lên, khác phòng ban hoặc cùng phòng ban nhưng không phải quản lý trực tiếp. -",
+        "Trich tu vpn_truy_cap.md, noi dung lien quan den quy dinh noi bo.\n\n## Quản lý tài khoản VPN\nTài khoản VPN tự động bị **khóa sau 60 ngày không hoạt động**. Để kích hoạt lại, nhân viên cần gửi yêu cầu qua ticket IT kèm xác nhận của quản lý trực tiếp. Thời gian xử lý: 1-2 ngày làm việc."
+      ],
+      "ground_truth": "KHÔNG cho cả hai. Mentor và buddy phải là hai người khác nhau. Quản lý trực tiếp không được làm mentor hoặc buddy.",
+      "faithfulness": 0.6111111106867284,
+      "answer_relevancy": 0.47619047576921136,
+      "context_precision": 0.2857142854459431,
+      "context_recall": 0.2857142854459431
+    },
+    {
+      "question": "Muốn mua thiết bị trị giá 55 triệu cần ai phê duyệt?",
+      "answer": "Trich tu mua_sam.md, noi dung lien quan den quy dinh noi bo.\n\n## Lưu ý đặc biệt\nMua sắm thiết bị CNTT (laptop, server, phần mềm) cần có xác nhận của phòng CNTT về cấu hình kỹ thuật trước khi đề xuất. Đơn hàng khẩn cấp có thể bỏ qua yêu cầu 3 báo giá nhưng phải có giải trình bằng văn bản.",
+      "contexts": [
+        "Trich tu mua_sam.md, noi dung lien quan den quy dinh noi bo.\n\n## Lưu ý đặc biệt\nMua sắm thiết bị CNTT (laptop, server, phần mềm) cần có xác nhận của phòng CNTT về cấu hình kỹ thuật trước khi đề xuất. Đơn hàng khẩn cấp có thể bỏ qua yêu cầu 3 báo giá nhưng phải có giải trình bằng văn bản.",
+        "Trich tu mua_sam.md, noi dung lien quan den quy dinh noi bo.\n\n## Quy trình đề xuất\n1. Tạo phiếu đề xuất mua sắm trên hệ thống Procurement Portal\n2. Đính kèm ít nhất 3 báo giá cho đơn hàng trên 10.000.000 VNĐ\n3. Chờ phê duyệt theo thẩm quyền tương ứng\n4. Phòng Mua sắm đặt hàng và theo dõi giao nhận",
+        "Trich tu mua_sam.md, noi dung lien quan den quy dinh noi bo.\n\n## Thẩm quyền phê duyệt | Giá trị đơn hàng | Người phê duyệt | |-------------------|-----------------| | Dưới **5.000.000 VNĐ** | Trưởng phòng (Manager) | | Từ **5.000.000 - 50.000.000 VNĐ** | Giám đốc phòng ban (Director) | | Trên **50.000.000 VNĐ** |"
+      ],
+      "ground_truth": "Đơn hàng trên 50.000.000 VNĐ cần Tổng Giám đốc (CEO) phê duyệt.",
+      "faithfulness": 0.737499999534453,
+      "answer_relevancy": 0.14084507014163855,
+      "context_precision": 0.14159292016414757,
+      "context_recall": 0.19298245593828872
+    },
+    {
+      "question": "Nhân viên tạm ứng 15 triệu, sau 20 ngày mới thanh toán. Bị phạt bao nhiêu?",
+      "answer": "Trich tu tam_ung.md, noi dung lien quan den quy dinh noi bo.\n\n## Phạt quá hạn\nKhoản tạm ứng chưa thanh toán sau 15 ngày sẽ bị tính phí **2%/tháng** trên số tiền chưa hoàn ứng. Phí này được khấu trừ vào lương tháng kế tiếp. Nhân viên có khoản tạm ứng chưa thanh toán sẽ không được phê duyệt tạm ứng mới.",
+      "contexts": [
+        "Trich tu tam_ung.md, noi dung lien quan den quy dinh noi bo.\n\n## Phạt quá hạn\nKhoản tạm ứng chưa thanh toán sau 15 ngày sẽ bị tính phí **2%/tháng** trên số tiền chưa hoàn ứng. Phí này được khấu trừ vào lương tháng kế tiếp. Nhân viên có khoản tạm ứng chưa thanh toán sẽ không được phê duyệt tạm ứng mới.",
+        "Trich tu tam_ung.md, noi dung lien quan den quy dinh noi bo.\n\n## Thời hạn thanh toán\nKhoản tạm ứng phải được thanh toán (nộp chứng từ hoàn ứng) trong vòng **15 ngày** kể từ ngày nhận tiền. Trường hợp công tác dài ngày, thời hạn tính từ ngày kết thúc chuyến công tác.",
+        "Trich tu bao_hiem_suc_khoe.md, noi dung lien quan den quy dinh noi bo.\n\n## Quy trình sử dụng Nhân viên xuất trình thẻ bảo hiểm PVI tại các bệnh viện/phòng khám trong danh sách liên kết. Trường hợp khám ngoài danh sách, nhân viên thanh toán trước và nộp hồ sơ bồi hoàn trong vòng 30 ngày. Thời gian xử lý bồi hoàn: 10-15 ngày làm"
+      ],
+      "ground_truth": "Thời hạn thanh toán là 15 ngày. Quá hạn 5 ngày, bị tính phí 2%/tháng trên 15.000.000 VNĐ = 300.000 VNĐ/tháng (tính pro-rata khoảng 50.000 VNĐ cho 5 ngày).",
+      "faithfulness": 0.67586206851805,
+      "answer_relevancy": 0.36923076885964495,
+      "context_precision": 0.21428571404081634,
+      "context_recall": 0.21848739464614084
+    },
+    {
+      "question": "Lương thử việc của nhân viên Junior mức cao nhất là bao nhiêu?",
+      "answer": "Trich tu thu_viec.md, noi dung lien quan den quy dinh noi bo.\n\n## Lương thử việc\nNhân viên thử việc được nhận **85% mức lương** của cấp bậc tương ứng theo bảng lương công ty. Phụ cấp ăn trưa được áp dụng đầy đủ từ ngày đầu tiên.",
+      "contexts": [
+        "Trich tu thu_viec.md, noi dung lien quan den quy dinh noi bo.\n\n## Lương thử việc\nNhân viên thử việc được nhận **85% mức lương** của cấp bậc tương ứng theo bảng lương công ty. Phụ cấp ăn trưa được áp dụng đầy đủ từ ngày đầu tiên.",
+        "Trich tu bang_luong_2024.md, noi dung lien quan den quy dinh noi bo.\n\n45.000.000 - 70.000.000 |\n\n## Lương thử việc\nNhân viên trong thời gian thử việc được nhận **85% lương** của cấp bậc tương ứng. Sau khi hoàn thành thử việc, lương được điều chỉnh lên 100% kể từ ngày ký hợp đồng chính thức.",
+        "Trich tu thu_viec.md, noi dung lien quan den quy dinh noi bo.\n\n## Quyền lợi trong thử việc Nhân viên thử việc **KHÔNG được nghỉ phép năm**. Trường hợp cần nghỉ việc riêng, nhân viên thử việc phải xin nghỉ không lương và được trưởng phòng phê duyệt. Nhân viên thử việc được tham gia bảo hiểm xã hội bắt buộc nhưng chưa"
+      ],
+      "ground_truth": "Junior cao nhất là 20.000.000 VNĐ/tháng. Lương thử việc = 85% x 20.000.000 = 17.000.000 VNĐ/tháng.",
+      "faithfulness": 0.6356589142950544,
+      "answer_relevancy": 0.25925925889369,
+      "context_precision": 0.13861386116184687,
+      "context_recall": 0.09803921544944251
+    },
+    {
+      "question": "Thông tin lương thuộc cấp độ phân loại dữ liệu nào?",
+      "answer": "Trich tu phan_loai_du_lieu.md, noi dung lien quan den quy dinh noi bo.\n\n## Bốn cấp độ phân loại | Cấp độ | Nhãn | Ví dụ | |--------|------|-------| | 1 | **Công khai** | Thông tin marketing, bài blog, tuyển dụng | | 2 | **Nội bộ** | Quy trình nội bộ, biên bản họp, danh bạ nhân viên | | 3 | **Bí mật** | Dữ liệu khách hàng, hợp",
+      "contexts": [
+        "Trich tu phan_loai_du_lieu.md, noi dung lien quan den quy dinh noi bo.\n\n## Bốn cấp độ phân loại | Cấp độ | Nhãn | Ví dụ | |--------|------|-------| | 1 | **Công khai** | Thông tin marketing, bài blog, tuyển dụng | | 2 | **Nội bộ** | Quy trình nội bộ, biên bản họp, danh bạ nhân viên | | 3 | **Bí mật** | Dữ liệu khách hàng, hợp",
+        "Trich tu phan_loai_du_lieu.md, noi dung lien quan den quy dinh noi bo.\n\n# Chính sách phân loại dữ liệu\n> Phiên bản: 1.0 | Ngày hiệu lực: 01/06/2024 | Phòng ban: CNTT & An ninh thông tin",
+        "Trich tu ky_luong.md, noi dung lien quan den quy dinh noi bo.\n\n## Phiếu lương\nPhiếu lương điện tử được gửi qua email công ty vào ngày chi trả. Thắc mắc về lương liên hệ phòng Tài chính trong vòng 5 ngày làm việc. Thông tin lương là dữ liệu **Bí mật**, cấm chia sẻ với đồng nghiệp."
+      ],
+      "ground_truth": "Theo quy chế chi trả lương, thông tin lương được phân loại là dữ liệu Bí mật, cấm chia sẻ với đồng nghiệp. Theo chính sách phân loại dữ liệu, dữ liệu Bí mật (cấp 3) phải mã hóa khi truyền và hạn chế truy cập theo need-to-know.",
+      "faithfulness": 0.680555555106578,
+      "answer_relevancy": 0.2666666663672222,
+      "context_precision": 0.16981132056870774,
+      "context_recall": 0.3609022552309345
+    },
+    {
+      "question": "Nghỉ phép không lương 20 ngày cần ai phê duyệt?",
+      "answer": "Trich tu nghi_phep_khong_luong.md, noi dung lien quan den quy dinh noi bo.\n\n## Quy trình phê duyệt Đơn xin nghỉ phép không lương phải được nộp trước ít nhất 7 ngày làm việc. Nghỉ từ 1-5 ngày: trưởng phòng phê duyệt. Nghỉ từ 6-15 ngày: cần thêm phê duyệt của Giám đốc Nhân sự. Nghỉ từ 16-30 ngày: cần phê duyệt của **Giám đốc điều",
+      "contexts": [
+        "Trich tu nghi_phep_khong_luong.md, noi dung lien quan den quy dinh noi bo.\n\n## Quy trình phê duyệt Đơn xin nghỉ phép không lương phải được nộp trước ít nhất 7 ngày làm việc. Nghỉ từ 1-5 ngày: trưởng phòng phê duyệt. Nghỉ từ 6-15 ngày: cần thêm phê duyệt của Giám đốc Nhân sự. Nghỉ từ 16-30 ngày: cần phê duyệt của **Giám đốc điều",
+        "Trich tu nghi_phep_nam_v2023.md, noi dung lien quan den quy dinh noi bo.\n\n## Quy định sử dụng Phép năm phải được đăng ký trước ít nhất 3 ngày làm việc qua hệ thống HR Portal. Nghỉ phép từ 3 ngày trở lên cần được trưởng phòng phê duyệt. Phép năm không sử dụng hết có thể chuyển tối đa 5 ngày sang năm sau, hết hạn vào 31/03 năm kế",
+        "Trich tu nghi_phep_nam_v2024.md, noi dung lien quan den quy dinh noi bo.\n\n## Quy định sử dụng Phép năm phải được đăng ký trước ít nhất 2 ngày làm việc qua hệ thống HR Portal. Nghỉ phép từ 5 ngày trở lên cần được trưởng phòng phê duyệt. Phép năm không sử dụng hết có thể chuyển tối đa 5 ngày sang năm sau, hết hạn vào 31/03 năm kế"
+      ],
+      "ground_truth": "Nghỉ 16-30 ngày cần phê duyệt của Giám đốc điều hành (CEO). Lưu ý: nghỉ trên 14 ngày không lương, nhân viên phải tự đóng phần bảo hiểm của mình.",
+      "faithfulness": 0.7619047614331066,
+      "answer_relevancy": 0.2758620686801427,
+      "context_precision": 0.18181818161673555,
+      "context_recall": 0.28301886753577793
+    }
+  ],
+  "failures": [
+    {
+      "question": "Lương thử việc của nhân viên Junior mức cao nhất là bao nhiêu?",
+      "answer": "Trich tu thu_viec.md, noi dung lien quan den quy dinh noi bo.\n\n## Lương thử việc\nNhân viên thử việc được nhận **85% mức lương** của cấp bậc tương ứng theo bảng lương công ty. Phụ cấp ăn trưa được áp dụng đầy đủ từ ngày đầu tiên.",
+      "ground_truth": "Junior cao nhất là 20.000.000 VNĐ/tháng. Lương thử việc = 85% x 20.000.000 = 17.000.000 VNĐ/tháng.",
+      "worst_metric": "context_recall",
+      "score": 0.2828928124500084,
+      "diagnosis": "Relevant chunks are missing",
+      "suggested_fix": "Improve chunking, add BM25 terms, or enrich chunks."
+    },
+    {
+      "question": "Phụ cấp ăn trưa hàng tháng là bao nhiêu?",
+      "answer": "Trich tu phu_cap.md, noi dung lien quan den quy dinh noi bo.\n\n## Phụ cấp ăn trưa\nTất cả nhân viên được hưởng phụ cấp ăn trưa **1.000.000 VNĐ/tháng**, chi trả cùng kỳ lương. Phụ cấp này không áp dụng cho những ngày nghỉ phép, nghỉ ốm hoặc công tác ngoài.",
+      "ground_truth": "Phụ cấp ăn trưa là 1.000.000 VNĐ/tháng, chi trả cùng kỳ lương.",
+      "worst_metric": "context_precision",
+      "score": 0.2878461976985465,
+      "diagnosis": "Retrieved context is noisy",
+      "suggested_fix": "Add reranking and metadata filters."
+    },
+    {
+      "question": "Muốn mua thiết bị trị giá 55 triệu cần ai phê duyệt?",
+      "answer": "Trich tu mua_sam.md, noi dung lien quan den quy dinh noi bo.\n\n## Lưu ý đặc biệt\nMua sắm thiết bị CNTT (laptop, server, phần mềm) cần có xác nhận của phòng CNTT về cấu hình kỹ thuật trước khi đề xuất. Đơn hàng khẩn cấp có thể bỏ qua yêu cầu 3 báo giá nhưng phải có giải trình bằng văn bản.",
+      "ground_truth": "Đơn hàng trên 50.000.000 VNĐ cần Tổng Giám đốc (CEO) phê duyệt.",
+      "worst_metric": "answer_relevancy",
+      "score": 0.3032301114446319,
+      "diagnosis": "Answer does not directly address the question",
+      "suggested_fix": "Improve prompt and answer format."
+    },
+    {
+      "question": "Bao lâu phải đổi mật khẩu một lần?",
+      "answer": "Trich tu mat_khau_v2.md, noi dung lien quan den quy dinh noi bo.\n\n## Chu kỳ thay đổi\nMật khẩu phải được thay đổi **mỗi 120 ngày**. Hệ thống tự động nhắc nhở trước 14 ngày. Mật khẩu mới không được trùng với 5 mật khẩu gần nhất. Tài khoản bị khóa sau 5 lần nhập sai liên tiếp.",
+      "ground_truth": "Theo chính sách hiện hành (v2.0), mật khẩu phải được thay đổi mỗi 120 ngày. Chính sách cũ yêu cầu 90 ngày nhưng đã bị thay thế.",
+      "worst_metric": "context_precision",
+      "score": 0.32391232950281257,
+      "diagnosis": "Retrieved context is noisy",
+      "suggested_fix": "Add reranking and metadata filters."
+    },
+    {
+      "question": "Nhân viên được nghỉ bao nhiêu ngày phép năm?",
+      "answer": "Trich tu nghi_phep_khong_luong.md, noi dung lien quan den quy dinh noi bo.\n\n## Điều kiện áp dụng\nNhân viên chính thức đã hết phép năm có thể xin nghỉ phép không lương. Thời gian nghỉ phép không lương tối đa là **30 ngày** trong một năm dương lịch. Nghỉ phép không lương không được tính thâm niên.",
+      "ground_truth": "Theo chính sách hiện hành (v2024), nhân viên được nghỉ 15 ngày phép năm có lương. Chính sách cũ (v2023) là 12 ngày nhưng đã bị thay thế.",
+      "worst_metric": "context_precision",
+      "score": 0.3256008185659811,
+      "diagnosis": "Retrieved context is noisy",
+      "suggested_fix": "Add reranking and metadata filters."
+    },
+    {
+      "question": "Có cần kích hoạt xác thực đa yếu tố (MFA) không?",
+      "answer": "Trich tu mat_khau_v2.md, noi dung lien quan den quy dinh noi bo.\n\n## Xác thực đa yếu tố (MFA)\nTất cả nhân viên **bắt buộc** kích hoạt MFA cho tài khoản email, VPN và các hệ thống nội bộ. Phương thức MFA được chấp nhận: ứng dụng Authenticator (ưu tiên), SMS OTP, hoặc YubiKey.",
+      "ground_truth": "Có, theo chính sách mật khẩu v2.0 hiện hành, tất cả nhân viên bắt buộc kích hoạt MFA cho email, VPN và hệ thống nội bộ. Chính sách cũ v1.0 không yêu cầu MFA.",
+      "worst_metric": "context_precision",
+      "score": 0.33146377206749666,
+      "diagnosis": "Retrieved context is noisy",
+      "suggested_fix": "Add reranking and metadata filters."
+    },
+    {
+      "question": "Nhân viên được nghỉ bao nhiêu ngày khi kết hôn?",
+      "answer": "Trich tu nghi_phep_dac_biet.md, noi dung lien quan den quy dinh noi bo.\n\n## Hồ sơ cần thiết\nNhân viên cần cung cấp giấy tờ chứng minh trong vòng 5 ngày làm việc sau khi quay lại: giấy đăng ký kết hôn, giấy khai tử, giấy khai sinh. Trường hợp không cung cấp đầy đủ, số ngày nghỉ sẽ bị trừ vào phép năm.",
+      "ground_truth": "Nhân viên được nghỉ 3 ngày làm việc có lương khi kết hôn, không trừ vào phép năm.",
+      "worst_metric": "context_precision",
+      "score": 0.346942322592957,
+      "diagnosis": "Retrieved context is noisy",
+      "suggested_fix": "Add reranking and metadata filters."
+    },
+    {
+      "question": "Nếu cần mua một chiếc laptop 30 triệu cho nhân viên mới, ai phê duyệt và cần gì từ phòng CNTT?",
+      "answer": "Trich tu hoan_chi_dao_tao.md, noi dung lien quan den quy dinh noi bo.\n\n## Điều kiện được tài trợ\nCông ty chi trả chi phí đào tạo bên ngoài (chứng chỉ, khóa học dài hạn, hội thảo) cho nhân viên có **thâm niên từ 1 năm trở lên**. Chi phí được tài trợ tối đa **30.000.000 VNĐ/khóa** và cần phê duyệt của Giám đốc phòng ban.",
+      "ground_truth": "Laptop 30 triệu nằm trong khoảng 5-50 triệu nên cần Giám đốc phòng ban (Director) phê duyệt. Ngoài ra, mua sắm thiết bị CNTT cần có xác nhận cấu hình kỹ thuật từ phòng CNTT trước khi đề xuất. Cần đính kèm ít nhất 3 báo giá vì trên 10 triệu.",
+      "worst_metric": "context_precision",
+      "score": 0.347576298133586,
+      "diagnosis": "Retrieved context is noisy",
+      "suggested_fix": "Add reranking and metadata filters."
+    },
+    {
+      "question": "Nhân viên tạm ứng 15 triệu, sau 20 ngày mới thanh toán. Bị phạt bao nhiêu?",
+      "answer": "Trich tu tam_ung.md, noi dung lien quan den quy dinh noi bo.\n\n## Phạt quá hạn\nKhoản tạm ứng chưa thanh toán sau 15 ngày sẽ bị tính phí **2%/tháng** trên số tiền chưa hoàn ứng. Phí này được khấu trừ vào lương tháng kế tiếp. Nhân viên có khoản tạm ứng chưa thanh toán sẽ không được phê duyệt tạm ứng mới.",
+      "ground_truth": "Thời hạn thanh toán là 15 ngày. Quá hạn 5 ngày, bị tính phí 2%/tháng trên 15.000.000 VNĐ = 300.000 VNĐ/tháng (tính pro-rata khoảng 50.000 VNĐ cho 5 ngày).",
+      "worst_metric": "context_precision",
+      "score": 0.369466486516163,
+      "diagnosis": "Retrieved context is noisy",
+      "suggested_fix": "Add reranking and metadata filters."
+    },
+    {
+      "question": "Thông tin lương thuộc cấp độ phân loại dữ liệu nào?",
+      "answer": "Trich tu phan_loai_du_lieu.md, noi dung lien quan den quy dinh noi bo.\n\n## Bốn cấp độ phân loại | Cấp độ | Nhãn | Ví dụ | |--------|------|-------| | 1 | **Công khai** | Thông tin marketing, bài blog, tuyển dụng | | 2 | **Nội bộ** | Quy trình nội bộ, biên bản họp, danh bạ nhân viên | | 3 | **Bí mật** | Dữ liệu khách hàng, hợp",
+      "ground_truth": "Theo quy chế chi trả lương, thông tin lương được phân loại là dữ liệu Bí mật, cấm chia sẻ với đồng nghiệp. Theo chính sách phân loại dữ liệu, dữ liệu Bí mật (cấp 3) phải mã hóa khi truyền và hạn chế truy cập theo need-to-know.",
+      "worst_metric": "context_precision",
+      "score": 0.3694839493183606,
+      "diagnosis": "Retrieved context is noisy",
+      "suggested_fix": "Add reranking and metadata filters."
+    }
+  ]
+}

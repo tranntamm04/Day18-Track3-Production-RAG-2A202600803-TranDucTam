@@ -3,10 +3,14 @@
 import os
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(override=True)
 
 # --- API Keys ---
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
+OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL", os.getenv("LLM_ENDPOINT", ""))
+LLM_MODEL = os.getenv("LLM_MODEL", "gemini-3-flash")
+RAG_USE_LLM = os.getenv("RAG_USE_LLM", "0") == "1"
+RAG_USE_RAGAS = os.getenv("RAG_USE_RAGAS", "0") == "1"
 
 # --- Qdrant ---
 QDRANT_HOST = "localhost"
